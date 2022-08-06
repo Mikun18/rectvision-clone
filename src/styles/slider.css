@@ -1,0 +1,48 @@
+.slider{
+    width: 70%;
+    /* margin: 0 10%; */
+    margin-top: 5%;
+}
+
+.slider img{
+    width: 90%;
+    text-align: center;
+    padding: 5%;
+    position: relative;
+    z-index: -1;
+}
+
+.slider h1{
+    padding: 0 5%;
+    font-size: xx-large;
+}
+
+.slider p{
+    padding: 5%;
+    font-size: larger;
+    line-height: 30px;
+}
+
+.slider button{
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    background-color: rgb(4, 69, 104);
+    margin: 0 5%;
+    font-size: 20px;
+    border-radius: 2rem;
+}
+
+/* .slick-arrow{
+    display: block;
+} */
+
+.slick-prev {
+    left: 3% !important;
+    z-index: 1;
+  }
+
+  .slick-next {
+    right: 3% !important;
+    z-index: 1;
+  }

@@ -1,0 +1,36 @@
+.offering-con{
+    margin-top: 15%;
+    background: linear-gradient(rgba(184, 217, 242, 0.7), rgba(246, 246, 246, 0.1));
+}
+
+.offering{
+    text-align: center;
+    border-radius: 50%;
+    padding: 5%;
+}
+
+.title{
+    margin-top: 30px;
+    color: rgb(36, 188, 239);
+}
+
+.offering h1{
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.offering p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+@media(min-width: 1000px){
+    .offering-con{
+        margin-top: 5%;
+    }
+
+    .offering p{
+        width: 850px;
+        margin: auto;
+    }
+}

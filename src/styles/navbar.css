@@ -1,0 +1,134 @@
+.navbar{
+    display: none;
+}
+
+.smaller-nav{
+    padding: 3% 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgb(246, 246, 246);
+    /* background-color: yellow; */
+    z-index: 1;
+}
+
+.smaller-nav img{
+    width: 25%;
+}
+
+.bars-icon{
+    padding: 10px 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-modal-bg{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: white;
+}
+
+.nav-modal{
+    margin: 5% 10%;
+}
+
+.nav-modal-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.cancel-logo{
+    font-size: 30px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cancel-logo:hover{
+    background-color: lightgrey;
+    border-radius: 0.5rem;
+}
+
+.nav-modal-item{
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 10% 0;
+}
+
+.nav-modal-item:hover{
+    color: blue;
+}
+
+.request-btn{
+    border: none;
+    color: white;
+    background-color: rgb(30, 33, 110);
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 1rem;
+    font-size: larger;
+    cursor: pointer;
+}
+
+@media(min-width: 765px){
+    .smaller-nav{
+        display: none;
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2% 8%;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-color: rgb(246, 246, 246);
+    }
+
+    .navbar img{
+    }
+
+    .navigators{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+
+    .nav-item{
+        color: black;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    .nav-item:hover{
+        color: blue;
+        transition: 0.5s;
+    }
+
+    .nav-btn{
+        display: none;
+    }
+}
+
+@media(min-width: 845px){
+    .nav-btn{
+        display: flex;
+        align-items: center;
+    }
+
+    .demo-btn{
+        border: none;
+        background-color: rgb(30, 33, 110);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 2rem;
+    }
+}
