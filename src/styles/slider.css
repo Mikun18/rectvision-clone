@@ -2,6 +2,7 @@
     width: 70%;
     /* margin: 0 10%; */
     margin-top: 5%;
+    z-index: -1;
 }
 
 .slider img{
@@ -19,7 +20,6 @@
 
 .slider p{
     padding: 5%;
-    font-size: larger;
     line-height: 30px;
 }
 

@@ -23,7 +23,7 @@ const Navbar = () => {
                </div>
              </div>
 
-             <div style={{position:'sticky', top:'0'}}>
+             <div style={{position:'sticky', top:'0', zIndex:'1'}}>
                 <SmallerNavbar />
              </div>
 
@@ -79,10 +79,10 @@ const NavModal = ({setShowModal}) => {
                 </div>
 
                 <div>
-                    <Link to ='pricing' className='nav-modal-item'>Pricing</Link>
-                    <Link to='career' className='nav-modal-item'>Careers</Link>
-                    <Link to='contact' className='nav-modal-item'>Contact Us</Link>
-                    <Link to='/' className='nav-modal-item'>Log in</Link>
+                    <Link to ='pricing' className='nav-modal-item' onClick={() => setShowModal(false)}>Pricing</Link>
+                    <Link to='career' className='nav-modal-item' onClick={() => setShowModal(false)}>Careers</Link>
+                    <Link to='contact' className='nav-modal-item' onClick={() => setShowModal(false)}>Contact Us</Link>
+                    <Link to='/' className='nav-modal-item' onClick={() => setShowModal(false)}>Log in</Link>
                     <button className='request-btn'>Request Demo</button>
                 </div>
             </div>
